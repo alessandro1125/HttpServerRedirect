@@ -1,0 +1,22 @@
+{
+  "name": "httpserverredirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandro1125/HttpServerRedirect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandro1125/HttpServerRedirect/issues"
+  },
+  "homepage": "https://github.com/alessandro1125/HttpServerRedirect#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

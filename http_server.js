@@ -1,7 +1,11 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-//create a server object:
-http.createServer(function (req, res) {
-  res.redirect("https://www.assetcopier.com");
-  res.end(); //end the response
-}).listen(80); //the server object listens on port 8080 
+app.get('/', function (req, res) {
+  res.redirect('https://www.assetcopier.com');
+});
+
+app.listen(80, function () {
+  console.log('Server listening on port 80');
+});
+
